@@ -1,0 +1,10 @@
+{
+  "dependencies": {},
+  "scripts": 
+  {
+    "parse": "bun jison ./src/parser.jison -o ./src/parser.js"
+  },
+  "devDependencies": {
+    "jison": "^0.4.18"
+  }
+}
